@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wisata Lampung</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav>
+        <a href="#home" class="logo">
+          <h1>Wonderful Lampung</h1>
+        </a>
+        <div class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#destinations">Destinations</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="mobile-menu">☰</div>
+      </nav>
+    </header>
+
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h2>Jelajahi Keindahan Lampung</h2>
+        <p>Temukan pesona alam, budaya, dan kuliner yang menakjubkan</p>
+        <a href="#destinations" class="cta-button">Mulai Petualangan</a>
+      </div>
+      <img src="images/banner.png" alt="Lampung banner" />
+    </section>
+
+    <main id="about">
+      <div id="content"></div>
+
+      <aside>
+        <img src="images/profile.png" alt="profile Lampung" />
+        <h3>Info Lampung</h3>
+        <p>
+          Lampung dengan berbagai keindahan alam dan kekayaan budaya yang
+          menakjubkan.
+        </p>
+        <h4>Transportasi</h4>
+        <ul>
+          <li>✈️ Bandara Radin Inten II</li>
+          <li>🚢 Pelabuhan Bakauheni</li>
+          <li>🚌 Bus Antar Kota</li>
+        </ul>
+
+        <h4>Waktu Terbaik Berkunjung</h4>
+        <p>Mei - September (Musim Kemarau)</p>
+      </aside>
+    </main>
+
+    <section class="cards-content" id="destinations">
+      <h2>Destinations</h2>
+      <div class="filters">
+        <select class="filter-select" id="categoryFilter">
+          <option value="all">Semua Kategori</option>
+          <option value="destination">Destinasi Wisata</option>
+          <option value="culture">Budaya</option>
+          <option value="culinary">Kuliner</option>
+        </select>
+        <select class="filter-select" id="locationFilter">
+          <option value="all">Semua Lokasi</option>
+          <option value="west">Lampung Barat</option>
+          <option value="south">Lampung Selatan</option>
+          <option value="east">Lampung Timur</option>
+        </select>
+      </div>
+      <div class="Card-grid" id="CardGrid">
+        <!-- tempat card di tampilkan -->
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <div>
+          <h3>Tentang Lampung</h3>
+          <p>
+            Provinsi dengan semboyan "Sai Bumi Ruwa Jurai" ini kaya akan budaya,
+            kuliner, dan destinasi wisata menakjubkan.
+          </p>
+        </div>
+        <div>
+          <h3>Kontak</h3>
+          <p>Email: ahmadseloabadi@gmail.com</p>
+          <p>Tel: (+62) 82279957160</p>
+        </div>
+        <div>
+          <h3>Media Sosial</h3>
+          <p>Instagram: @ahmad.selo.abadi</p>
+          <p>github: ahmadseloabadi</p>
+        </div>
+      </div>
+      <hr />
+      <div class="footer-copyright">
+        <p>&copy; 2024 Ahmad Selo Abadi. Semua hak dilindungi.</p>
+      </div>
+    </footer>
+    <script src="javascript/script.js"></script>
+  </body>
+</html>
